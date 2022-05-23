@@ -38,14 +38,16 @@ Sistema para mapeamento de casos de dengue na região.
 
 Funcionais:
 
-* Autenticação por login;	
-* Cadastro de caso com paciente;
-* Mostrar o número de casos por bairro;
-* Mostrar o mapa da cidade com os bairro sinalizando os bairros maior incidencia.
+* Cadastro de caso com paciente
+* Mostrar o número de casos por bairro.
+* Integração com Google Maps API.
+* Mostrar o mapa da cidade sinalizando os bairros com maior incidência.
 
 Não funcionais: 
 
-* Validação de CPF via @ JPA.
+* Autenticação por login
+* Validação via BeanValidator @CPF
+* Consulta de API viacep.com.br/ws
   
 ## Orientações Técnicas
 
