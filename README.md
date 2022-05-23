@@ -6,6 +6,8 @@ Sistema para mapeamento de casos de dengue na região de Blumenau.
 
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
+* [Requisitos](#requisitos)
+* [Orientações técnicas](#orientações-técnicas)
 * [Status do Projeto](#status)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -31,6 +33,17 @@ Sistema para mapeamento de casos de dengue na região de Blumenau.
   Os cadastros serão efetuados por funcionários agentes de saúde previamente autenticados no sistema.
   O cadastro irá conter nome, sexo, idade e endereço do paciente, bem como a data do teste.
   A partir do endereço, vamos obter a localização geográfica para sinalizar os casos acumulados no mapa.</p>
+  
+## Requisitos
+
+-----
+  
+## Orientações Técnicas
+
+No arquivo 'BugLess\front-BugLess\node_modules\@agm\core\lib\services\google-maps-api-wrapper.d.ts' é necessário comentar ou excluir a linha com o conteúdo:<br> 'subscribeToMapEvent<N extends keyof google.maps.MapHandlerMap>(eventName: N): Observable<google.maps.MapHandlerMap[N]>;'
+
+No arquivo <b>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\managers\marker-manager.d.ts'</b> é necessário comentar ou excluir a linha com o conteúdo:<br>
+  'createEventObservable<T extends (google.maps.MouseEvent | void)>(eventName: google.maps.MarkerMouseEventNames | google.maps.MarkerChangeOptionEventNames, marker: AgmMarker): Observable<T>;'
   
 ## Funcionalidades e Demonstração da Aplicação
 
