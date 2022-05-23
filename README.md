@@ -1,6 +1,6 @@
 # BugLess
 
-Sistema para mapeamento de casos de dengue na região de Blumenau.
+Sistema para mapeamento de casos de dengue na região.
 
 ## Índice 
 
@@ -20,7 +20,7 @@ Sistema para mapeamento de casos de dengue na região de Blumenau.
 
 ## Motivação
 
-  Mapear os casos de dengue na região de Blumenau, como solução para o Hackathon do programa [+Devs2Blu](https://www.devs2blu.com.br/) realizado pela [Proway](https://www.proway.com.br) e apoiado pelas empresas:. <br> 
+  Mapear os casos de dengue na região, como solução para o Hackathon do programa [+Devs2Blu](https://www.devs2blu.com.br/) realizado pela [Proway](https://www.proway.com.br) e apoiado pelas empresas:. <br> 
   
   * [DBR](https://www.dbrsa.com.br/)
   * [Govbr](https://www.govbr.com.br/)
@@ -36,7 +36,16 @@ Sistema para mapeamento de casos de dengue na região de Blumenau.
   
 ## Requisitos
 
------
+Funcionais:
+
+* Autenticação por login;	
+* Cadastro de caso com paciente;
+* Mostrar o número de casos por bairro;
+* Mostrar o mapa da cidade com os bairro sinalizando os bairros maior incidencia.
+
+Não funcionais: 
+
+* Validação de CPF via @ JPA.
   
 ## Orientações Técnicas
 
