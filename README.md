@@ -11,7 +11,7 @@ Sistema para mapeamento de casos de dengue na região.
 * [Status do Projeto](#status)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Desenvolvedores](#desenvolvedores)
 * [Conclusão](#conclusão)
 
 ## Status
@@ -55,21 +55,17 @@ Não funcionais:
 
 No arquivo 'BugLess\front-BugLess\node_modules\@agm\core\lib\services\google-maps-api-wrapper.d.ts' é necessário comentar ou excluir a linha com o conteúdo:<br> 'subscribeToMapEvent<N extends keyof google.maps.MapHandlerMap>(eventName: N): Observable<google.maps.MapHandlerMap[N]>;'
 
-No arquivo <b>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\managers\marker-manager.d.ts'</b> é necessário comentar ou excluir a linha com o conteúdo:<br>
+No arquivo 'BugLess\front-BugLess\node_modules\@agm\core\lib\services\managers\marker-manager.d.ts' é necessário comentar ou excluir a linha com o conteúdo:<br>
   'createEventObservable<T extends (google.maps.MouseEvent | void)>(eventName: google.maps.MarkerMouseEventNames | google.maps.MarkerChangeOptionEventNames, marker: AgmMarker): Observable<T>;'
   
 ## Funcionalidades e Demonstração da Aplicação
 
 > :construction: Projeto em construção :construction:
 
-## Pessoas Desenvolvedoras
-
-* Alessandro de Borba Ferreira  ([GitHub](https://github.com/alessandrobferreira) | [Linkedin](https://www.linkedin.com/in/alessandro-ferreira-a9199a115/))
-* André Felipe Schwanz ([GitHub](https://github.com/Andre121193) | [Linkedin](https://www.linkedin.com/in/andr%C3%A9-schwanz-241a51216/))
-* Douglas Lima da Luz ([GitHub](https://github.com/douglaslimaluz) | [Linkedin](https://www.linkedin.com/in/douglas-lima-da-luz-82895a19b/))
-* José Augusto Klaumann ([GitHub](https://github.com/JoseKlaumann) | [Linkedin](https://www.linkedin.com/in/jos%C3%A9-augusto-klaumann-5258b6178/))
-* Juliano Henrique Santos Vieira ([GitHub](https://github.com/jucabnu) | [Linkedin](https://www.linkedin.com/in/juliano-h-vieira/))
-* Luan Lordello Guimarães Lima ([GitHub](https://github.com/LordeLuan) | [Linkedin](https://www.linkedin.com/in/luan-lordello-69aa58196/))
+## Desenvolvedores
+ 
+| <img src="https://avatars.githubusercontent.com/u/94122439?v=4" width=115><br><sub>[Alessandro B. Ferreira](https://github.com/alessandrobferreira)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/alessandro-ferreira-a9199a115/)</sub> |<img src="https://avatars.githubusercontent.com/u/83621544?v=4" width=115><br><sub>[André F. Schwanz](https://github.com/Andre121193)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/andr%C3%A9-schwanz-241a51216/)</sub> |<img src="https://avatars.githubusercontent.com/u/60515470?v=4" width=115><br><sub>[Douglas Lima da Luz](https://github.com/douglaslimaluz)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/douglas-lima-da-luz-82895a19b/)</sub> |<img src="https://avatars.githubusercontent.com/u/79611444?v=4" width=115><br><sub>[José A. Klaumann](https://github.com/JoseKlaumann)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/jos%C3%A9-augusto-klaumann-5258b6178/)</sub> |<img src="https://avatars.githubusercontent.com/u/5782250?v=4" width=115><br><sub>[Juliano H. S. Vieira](https://github.com/jucabnu)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/juliano-h-vieira/)</sub> |<img src="https://avatars.githubusercontent.com/u/89278356?v=4" width=115><br><sub>[Luan L. G. Lima](https://github.com/LordeLuan)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/luan-lordello-69aa58196/)</sub> |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ## Tecnologias Utilizadas
 
