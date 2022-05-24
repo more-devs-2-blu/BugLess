@@ -62,7 +62,7 @@ No arquivo <b>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\manager
 
 ## Pessoas Desenvolvedoras
 
-* Alessandro de Borba Ferreira,  ([GitHub](https://github.com/alessandrobferreira) | [Linkedin](https://www.linkedin.com/in/alessandro-ferreira-a9199a115/))
+* Alessandro de Borba Ferreira  ([GitHub](https://github.com/alessandrobferreira) | [Linkedin](https://www.linkedin.com/in/alessandro-ferreira-a9199a115/))
 * André Felipe Schwanz ([GitHub](https://github.com/Andre121193) | [Linkedin](https://www.linkedin.com/in/andr%C3%A9-schwanz-241a51216/))
 * Douglas Lima da Luz ([GitHub](https://github.com/douglaslimaluz) | [Linkedin](https://www.linkedin.com/in/douglas-lima-da-luz-82895a19b/))
 * José Augusto Klaumann ([GitHub](https://github.com/JoseKlaumann) | [Linkedin](https://www.linkedin.com/in/jos%C3%A9-augusto-klaumann-5258b6178/))
