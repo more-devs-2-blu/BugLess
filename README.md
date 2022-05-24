@@ -50,12 +50,13 @@ Funcionais:
 * RF02: Mostrar o número de casos por bairro.
 * RF03: Integração com Google Maps API.
 * RF04: Mostrar o mapa da cidade sinalizando os bairros com maior incidência.
+* RF05: Validação via BeanValidator @CPF
+* RF06: Consulta de API viacep.com.br/ws
 
 Não funcionais: 
 
-* RN01: Autenticação por login
-* RN02: Validação via BeanValidator @CPF
-* RN03: Consulta de API viacep.com.br/ws
+* RN01: Desempenho
+* RN02: Usabilidade
   
 ## Orientações Técnicas
 
