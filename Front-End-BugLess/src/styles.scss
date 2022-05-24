@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+  background: linear-gradient(90deg, rgba(252,220,30,0.45702030812324934) 0%, rgba(227,10,10,0.42620798319327735) 54%);
+}
+
+h1,h2,h3,h4,h5,p,b,label{
+  font-family: saira;
+  font-weight: 300;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Saira+Condensed:wght@100;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');

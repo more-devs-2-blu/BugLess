@@ -1,0 +1,27 @@
+.titulo{
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  font-weight: 800;
+  margin-top: .5rem;
+}
+
+.cidade{
+  margin-left: 1rem;
+}
+.uf{
+  margin-left: 10rem;
+}
+.btn{
+  margin-top: 1rem;
+  color: white;
+  width: 17rem;
+  font-size: 1.2rem;
+  background-color: #fb3943;
+
+}
+
+.btn:hover{
+  background: linear-gradient(90deg, rgba(252,220,30,0.45702030812324934) 0%, rgba(227,10,10,0.42620798319327735) 54%);
+}
+

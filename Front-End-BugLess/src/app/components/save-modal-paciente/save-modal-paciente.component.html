@@ -1,0 +1,22 @@
+<div class="modal fade" 
+     id="modalSaveCadastro" 
+     tabindex="-1"
+     aria-labelledby="modalSaveCadastroLabel"
+     aria-hidden="true">
+   <div class="modal-dialog">
+       <div class="modal-content">
+           <div class="modal-body">
+               <h5 class="modal-title alert alert-success"
+                   id="modalSaveCadastroLabel">
+                    Paciente <b>{{cadastroSave.nome}} salvo com sucesso!</b>
+               </h5>
+           </div>
+           <div class="modal-footer">
+            <button (click)="confirm()"
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal">Ok</button>
+            
+       </div>
+   </div>    
+ </div>
