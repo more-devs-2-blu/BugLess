@@ -34,7 +34,7 @@ Sistema para mapeamento de casos de dengue na região.
   O cadastro irá conter nome, sexo, idade e endereço do paciente, bem como a data do teste.
   A partir do endereço, vamos obter a localização geográfica para sinalizar os casos acumulados no mapa.</p>
   
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/RV3NdMN5/Video-220524115921.gif' border='0' alt='Video-220524115921'/></a>
+  [![Video-220524115921.gif](https://i.postimg.cc/x8CvPGyY/Video-220524115921.gif)](https://postimg.cc/YG5LrWsy)
   
 ## Requisitos
 
