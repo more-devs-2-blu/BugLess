@@ -2,21 +2,20 @@
 
 Sistema para mapeamento de casos de dengue na região.
 
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-green" alt="Status: Em Desenvolvimento">  <img src="https://img.shields.io/github/license/more-devs-2-blu/bugless" alt="Licença: MIT">
+
 ## Índice 
 
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Requisitos](#requisitos)
 * [Orientações técnicas](#orientações-técnicas)
-* [Status do Projeto](#status)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Desenvolvedores](#desenvolvedores)
+* [Licença](#licença)
 * [Conclusão](#conclusão)
 
-## Status
-
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Motivação
 
@@ -34,22 +33,23 @@ Sistema para mapeamento de casos de dengue na região.
   O cadastro irá conter nome, sexo, idade e endereço do paciente, bem como a data do teste.
   A partir do endereço, vamos obter a localização geográfica para sinalizar os casos acumulados no mapa.</p>
   
+  Exemplo de uso:<br>
   [![Video-220524115921.gif](https://i.postimg.cc/x8CvPGyY/Video-220524115921.gif)](https://postimg.cc/YG5LrWsy)
   
 ## Requisitos
 
 Funcionais:
 
-* Cadastro de caso com paciente
-* Mostrar o número de casos por bairro.
-* Integração com Google Maps API.
-* Mostrar o mapa da cidade sinalizando os bairros com maior incidência.
+* RF01: Cadastro de caso com paciente
+* RF02: Mostrar o número de casos por bairro.
+* RF03: Integração com Google Maps API.
+* RF04: Mostrar o mapa da cidade sinalizando os bairros com maior incidência.
 
 Não funcionais: 
 
-* Autenticação por login
-* Validação via BeanValidator @CPF
-* Consulta de API viacep.com.br/ws
+* RN01: Autenticação por login
+* RN02: Validação via BeanValidator @CPF
+* RN03: Consulta de API viacep.com.br/ws
   
 ## Orientações Técnicas
 
@@ -83,6 +83,12 @@ No arquivo 'BugLess\front-BugLess\node_modules\@agm\core\lib\services\managers\m
   <img align="center" alt="Mysql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg">       
   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">       
  </div> 
+  
+## Licença
+  
+  BugLess é [MIT licensed](./LICENSE).
+  
+  BugLess é licenciado pelo MIT. A documentação do BugLess (por exemplo, arquivos .md na pasta ./docs) é licenciada pelo [Creative Commons licensed](./LICENSE-docs).
  
 ## Conclusão
 
