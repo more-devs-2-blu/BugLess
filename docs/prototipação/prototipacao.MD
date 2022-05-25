@@ -4,6 +4,8 @@
 * [Tela de cadastro](#tela-de-cadastro)
 * [Tela do mapa](#tela-do-mapa)
 
+Para a prototipação de telas utilizamos o [Miro](https://miro.com/app/)
+
 ## Tela Principal
 Essa é a tela principal do sistema, nela o usuário irá escolher se quer cadastrar um caso ou ver o mapeamento. 
 
