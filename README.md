@@ -62,13 +62,11 @@ Não funcionais:
 
 No arquivo <i>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\google-maps-api-wrapper.d.ts'</i> é necessário comentar ou excluir o seguinte conteúdo:<br> 
 ~~~typescript
-subscribeToMapEvent<N extends keyof google.maps.MapHandlerMap>(eventName: N): 
-  Observable<google.maps.MapHandlerMap[N]>;
+subscribeToMapEvent<N extends keyof google.maps.MapHandlerMap>(eventName: N): Observable<google.maps.MapHandlerMap[N]>;
 ~~~
 No arquivo <i>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\managers\marker-manager.d.ts'</i> é necessário comentar ou excluir o seguinte conteúdo:<br>
 ~~~typescript
-createEventObservable<T extends (google.maps.MouseEvent | void)>(eventName: google.maps.MarkerMouseEventNames | 
-  google.maps.MarkerChangeOptionEventNames, marker: AgmMarker): Observable<T>;
+createEventObservable<T extends (google.maps.MouseEvent | void)>(eventName: google.maps.MarkerMouseEventNames | google.maps.MarkerChangeOptionEventNames, marker: AgmMarker): Observable<T>;
 ~~~
   
 ## Funcionalidades e Demonstração da Aplicação
