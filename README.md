@@ -39,7 +39,7 @@ Sistema para mapeamento de casos de dengue na região.
   
 ## Documentos
 
-* [Prototipação](https://github.com/more-devs-2-blu/bugless/tree/main/docs/prototipação)
+* [Prototipação](https://github.com/more-devs-2-blu/bugless/blob/main/docs/prototipa%C3%A7%C3%A3o/prototipacao.MD#tela-de-cadastro)
 * [Outros](https://github.com/more-devs-2-blu/bugless/tree/main/docs/)
   
 ## Requisitos
