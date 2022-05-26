@@ -94,7 +94,7 @@ createEventObservable<T extends (google.maps.MouseEvent | void)>(eventName: goog
 
 **Docker**
 
-É possível iniciar a aplicação em containers via docker-compose com o comando abaixo à partir do diretório .\bugless:
+É possível iniciar a aplicação em containers via docker-compose com o comando abaixo à partir do diretório .\bugless, no entanto, deve-se atentar para as demais orientações referentes ao back-end:
 
 ~~~~
 docker-compose up -d --build
