@@ -60,21 +60,28 @@ Não funcionais:
   
 ## Orientações Técnicas
 
-Na primeira execução, é necessário editar o arquivo '/BugLess/src/main/resources/application.properties' dessa forma:
+**Back-End**
+
+Na primeira execução, a linha abaixo deve estar comentada no arquivo '/BugLess/src/main/resources/application.properties', dessa forma:
 
 ~~~
-#Comentar essa linha
 #spring.sql.init.mode= always
 ~~~
 
-Iniciar o Spring-Boot, para criar as tabelas no banco de dados, e depois editar o arquivo '/BugLess/src/main/resources/application.properties' novamente, para:
+Iniciar o Spring-Boot com a linha abaixo descomentada, para fazer os inserts (data.sql) na tabela auxiliar de coordenadas.
+Arquivo '/BugLess/src/main/resources/application.properties':
 
 ~~~
-#Descomentar essa linha
 spring.sql.init.mode= always
 ~~~
 
-Rodar o sistema normalmente.
+Comentar a linha abaixo novamente no arquivo '/BugLess/src/main/resources/application.properties' para não duplicar os registros da tabela de coordenadas nas próximas execuções:
+
+~~~
+#spring.sql.init.mode= always
+~~~
+
+**Front-End**
 
 No arquivo <i>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\google-maps-api-wrapper.d.ts'</i> é necessário comentar ou excluir o seguinte conteúdo:<br> 
 ~~~typescript
