@@ -91,6 +91,14 @@ No arquivo <i>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\manager
 ~~~typescript
 createEventObservable<T extends (google.maps.MouseEvent | void)>(eventName: google.maps.MarkerMouseEventNames | google.maps.MarkerChangeOptionEventNames, marker: AgmMarker): Observable<T>;
 ~~~
+
+**Docker**
+
+É possível iniciar a aplicação em containers via docker-compose com o comando abaixo à partir do diretório .\bugless:
+
+~~~~
+docker-compose up -d --build
+~~~~
   
 ## Funcionalidades e Demonstração da Aplicação
 
