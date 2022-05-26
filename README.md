@@ -60,6 +60,22 @@ Não funcionais:
   
 ## Orientações Técnicas
 
+Na primeira execução, é necessário editar o arquivo '/BugLess/src/main/resources/application.properties' dessa forma:
+
+~~~
+#Comentar essa linha
+#spring.sql.init.mode= always
+~~~
+
+Iniciar o Spring-Boot, para criar as tabelas no banco de dados, e depois editar o arquivo '/BugLess/src/main/resources/application.properties' novamente, para:
+
+~~~
+#Descomentar essa linha
+spring.sql.init.mode= always
+~~~
+
+Rodar o sistema normalmente.
+
 No arquivo <i>'BugLess\front-BugLess\node_modules\@agm\core\lib\services\google-maps-api-wrapper.d.ts'</i> é necessário comentar ou excluir o seguinte conteúdo:<br> 
 ~~~typescript
 subscribeToMapEvent<N extends keyof google.maps.MapHandlerMap>(eventName: N): Observable<google.maps.MapHandlerMap[N]>;
