@@ -34,7 +34,8 @@ Sistema para mapeamento de casos de dengue na região.
   O cadastro irá conter nome, sexo, idade e endereço do paciente, bem como a data do teste.
   A partir do endereço, vamos obter a localização geográfica para sinalizar os casos acumulados no mapa.</p>
   
-  Exemplo de uso:<br>
+## Funcionalidades e Demonstração da Aplicação
+
   [![v2.gif](https://i.postimg.cc/6qwBXgv9/v2.gif)](https://postimg.cc/Q962g6mP)
   
 ## Documentos
@@ -59,6 +60,10 @@ Não funcionais:
 * RN02: Usabilidade
   
 ## Orientações Técnicas
+
+**Branch oficial do Back/Front-End**
+
+[Acesso aos repositório do back-end, front-end e docker-compose.yml](https://github.com/more-devs-2-blu/bugless/tree/envio-original)
 
 **Back-End**
 
@@ -100,10 +105,6 @@ createEventObservable<T extends (google.maps.MouseEvent | void)>(eventName: goog
 docker-compose up -d --build
 ~~~~
   
-## Funcionalidades e Demonstração da Aplicação
-
-> :construction: Projeto em construção :construction:
-
 ## Desenvolvedores
  
 | <img src="https://avatars.githubusercontent.com/u/94122439?v=4" width=115><br><sub>[Alessandro Ferreira](https://github.com/alessandrobferreira)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/alessandro-ferreira-a9199a115/)</sub> |<img src="https://avatars.githubusercontent.com/u/83621544?v=4" width=115><br><sub>[André Schwanz](https://github.com/Andre121193)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/andr%C3%A9-schwanz-241a51216/)</sub> |<img src="https://avatars.githubusercontent.com/u/60515470?v=4" width=115><br><sub>[Douglas Luz](https://github.com/douglaslimaluz)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/douglas-lima-da-luz-82895a19b/)</sub> |<img src="https://avatars.githubusercontent.com/u/79611444?v=4" width=115><br><sub>[José Klaumann](https://github.com/JoseKlaumann)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/jos%C3%A9-augusto-klaumann-5258b6178/)</sub> |<img src="https://avatars.githubusercontent.com/u/5782250?v=4" width=115><br><sub>[Juliano Vieira](https://github.com/jucabnu)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/juliano-h-vieira/)</sub> |<img src="https://avatars.githubusercontent.com/u/89278356?v=4" width=115><br><sub>[Luan Lima](https://github.com/LordeLuan)</sub><br><sub>[Linkedin](https://www.linkedin.com/in/luan-lordello-69aa58196/)</sub> |
