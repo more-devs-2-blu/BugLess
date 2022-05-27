@@ -1,0 +1,55 @@
+.titulo{
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  font-weight: 800;
+  margin-top: .5rem;
+  font-size: 3rem;
+  text-shadow: 2px 2px black;
+}
+label{
+  font-size: 1.3rem;
+}
+
+.estilo{
+  justify-content: center;
+  width: 30rem;
+  margin-left: 20rem;
+}
+
+#sexo{
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  border: 1px solid black;
+}
+input{
+  border-radius: 2rem;
+  border: 1px solid black;
+}
+.cidade{
+  margin-left: 1rem;
+}
+.uf{
+  margin-left: 3.3rem;
+}
+.btn{
+  margin-top: 1rem;
+  color: white;
+  width: 17rem;
+  font-size: 1.2rem;
+  background-color: #fb3943;
+  border-radius: 2rem;
+}
+
+.btn:hover{
+  background: linear-gradient(90deg, rgba(252,220,30,0.45702030812324934) 0%, rgba(227,10,10,0.42620798319327735) 54%);
+}
+
+.btn:disabled {
+	color: white;
+  background-color: black;
+}
+.btn:disabled:hover{
+  cursor: not-allowed;
+}
