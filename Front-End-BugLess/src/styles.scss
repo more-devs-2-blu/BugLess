@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+  // background: linear-gradient(90deg, rgba(252,220,30,0.45702030812324934) 0%, rgba(227,10,10,0.42620798319327735) 54%);
+  background-image: url('assets/img/body.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,h2,h3,h4,h5,p,b,label{
+  font-family: 'MontSerrat';
+  font-weight: 500;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;800&display=swap');

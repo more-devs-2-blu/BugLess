@@ -1,0 +1,47 @@
+agm-map {
+  height: 500px;
+  width: 800px;
+  margin-left: 5rem ;
+}
+
+.table{
+  position: absolute;
+  left: 15px;
+  background-color: #ff7f51;
+  color: #fff;
+  margin-left: 1.5rem;
+  width: 15rem;
+  text-align: center;
+}
+
+.table th{
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+.table td{
+  font-size: 18px;
+}
+
+.titulo{
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-weight: 800;
+  text-shadow: 2px 2px black;
+}
+
+.row{
+  margin: 0%;
+}
+.btn{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: white;
+  width: 7rem;
+  font-size: 1.2rem;
+  background-color: #fb3943;
+  border-radius: 2rem;
+}

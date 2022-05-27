@@ -1,0 +1,49 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.586);
+  margin: 0;
+  box-sizing: border-box;
+  position: sticky;
+  bottom: 0;
+}
+
+.tam{
+  min-height: 4.5rem;
+}
+
+.main-footer {
+  box-sizing: border-box;
+
+}
+
+.up-footer {
+  font-size: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  align-items:  flex-start;
+  padding: .5rem;
+  box-shadow: 1px 1px 1px black;
+}
+.agir{
+  color: rgb(154, 213, 65);
+  text-transform: uppercase;
+}
+.down-footer {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  padding-left: 10rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.down-footer>a {
+  color: white;
+  margin-right: 5rem;
+  text-decoration: none;
+}
+
+.down-footer>img {
+  width: 3rem;
+}
